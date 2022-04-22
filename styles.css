@@ -19,13 +19,11 @@ h1 {
     font-size: 50px;
 }
 
-
 header {
     display: flex;
     width: 100%;
     flex-direction: row;
-    margin: 20px;
-
+    margin-bottom: 20px;
 }
 
 header nav {
@@ -34,9 +32,8 @@ header nav {
     align-items: center;
     justify-content: center;
     height: 50px;
-    gap: 5px;
+    gap: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
 }
 
 .header__div {
@@ -83,11 +80,13 @@ section {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 10px;
 }
 
 section p {
     display: inline;
     text-align: justify;
+    margin: 10px;
 }
 
 section h3 {
